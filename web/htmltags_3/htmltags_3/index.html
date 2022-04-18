@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Forme lab4</title>
+
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<link rel="stylesheet" href="./basic.css" type="text/css">
+		<body>
+			<h1> Forme</h1>
+	</head>
+		<body><form action="#" method="post" enctype="multipart/form-data"></form>
+			<div class="form">
+		
+		
+				<div class="container">
+					 <div>
+						<label for="firstName">First name: </label>
+						<input type="text" id="firstName" name="firstName">
+						<div class="error-text" id="firstNameError"></div>
+						<div class="error" id="firstNameError"></div>
+				  </div>
+				  <div> 
+					<label for="lastName">Last name: </label>
+					<input type="text" id="lastName" name="lastName">
+					<div class="error-text" id="lastNameError"></div>
+					<div class="error" id="lastNameError"></div>
+			  </div>
+			  <div>
+				<label for="email">Email: </label>
+				<input type="text" id="email" name="email">
+				<div class="error-text" id="emailError"></div>
+				<div class="error" id="emailError"></div>
+		  </div> 
+		  <div>
+			<label for="email">Telefon: </label>
+			<input type="tel" id="telefon" name="userphone">
+			<div class="error-text" id="telefonError"></div>
+			<div class="error" id="telefonError"></div>
+	  </div>
+	  
+		  <div>
+			<label for="city">City: </label>
+			<input type="text" id="city" name="city">
+			<div class="error" id="cityError"></div>
+	  </div>
+	  <div>
+		<label for="gender">Genul: </label>
+		<input checked type="radio" id="gender" name="gender" value="male"> Masculin
+		<input type="radio" id="gender" name="gender" value="female"> Femenin
+		<div class="error" id="genderError"></div>
+  </div>
+  <div>
+	<p>Adaugare poza</p>
+	<input tabindex="10" type="file" name="userfoto" />
+</div>
+<div>
+	<p>Limbaje de programare cunoscute</p>
+	<select tabindex="11" name="program">
+		<option value="JavaScript">JavaScript</option>
+		<option value="Phyton">Phyton</option>
+		<option value="C++">C++</option>
+	</select>
+</div>
+	  <div>
+		<button type="button" id="submitButton">Submit</button>
+		<button type="button" id="submitButton">
+			 Submit
+		</button>
+  </div>
+</div>
+
+<div class="container">
+	<div id="firstNameDisplay">
+
+	</div>
+	<div id="lastNameDisplay">
+
+	</div>
+	<div id="emailDisplay">
+
+	</div>
+	<div id="cityDisplay">
+
+	</div>
+</div>
+
+
+<script src="action.js"></script>
+</form>
+
+</body>
+</body>
+</head>
+</html>
+
+
+	
+
+		

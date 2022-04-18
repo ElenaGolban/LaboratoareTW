@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Forme lab4</title>
+
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<link rel="stylesheet" href="./basic.css" type="text/css">
+		<body>
+			<h1> Forme</h1>
+	</head>
+		<body>
+			<div class="form">
+		
+		
+				<div class="container">
+					 <div>
+						<label for="firstName">First name: </label>
+						<input type="text" id="firstName" name="firstName" placeholder="Name">
+						<div class="error-text" id="firstNameError"></div>
+						<div class="error" id="firstNameError"></div>
+				  </div>
+				  <div> 
+					<label for="lastName">Last name: </label>
+					<input type="text" id="lastName" name="lastName" placeholder="Name">
+					<div class="error-text" id="lastNameError"></div>
+					<div class="error" id="lastNameError"></div>
+			  </div>
+			  <div>
+				<label for="email">Email: </label>
+				<input type="text" id="email" name="email" placeholder="email@">
+				<div class="error-text" id="emailError"></div>
+				<div class="error" id="emailError"></div>
+		  </div> 
+		  <div>
+			<label for="telefon">Telefon: </label>
+			<input type="tel" id="telefon" name="userphone" placeholder="+373" >
+			<div class="error-text" id="telefonError"></div>
+			<div class="error" id="telefonError"></div>
+	  </div>
+	  
+		  <div>
+			<label for="city">City: </label>
+			<input type="text" id="city" name="city" placeholder="City">
+			<div class="error" id="cityError"></div>
+	  </div>
+	  <div>
+		<label for="gender">Genul: </label>
+		<input checked type="radio" id="gender" name="gender" value="male"> Masculin
+		<input type="radio" id="gender" name="gender" value="female"> Femenin
+		<div class="error" id="genderError"></div>
+  </div>
+  <div>
+	<label for="foto"> Adaugare foto</label>
+	<input  type="file" id="foto" name="userfoto" >
+<div class="error" id="fotoError"></div>
+</div>
+<div>
+	<label for="Limbaje">Limbaje de programare cunoscute</label>
+	<select tabindex="11" name="program">
+		<option value="JavaScript">JavaScript</option>
+		<option value="Phyton">Phyton</option>
+		<option value="C++">C++</option>
+	</select>
+</div>
+	  <div>
+		<button  type="button" id="submitButton">Submit</button>
+		<button type="button" id="submitButton">
+			 Submit
+		</button>
+  </div>
+</div>
+
+<div class="container">
+	<div id="firstNameDisplay">
+
+	</div>
+	<div id="lastNameDisplay">
+
+	</div>
+	<div id="emailDisplay">
+
+	</div>
+	<div id="cityDisplay">
+
+	</div>
+</div>
+
+
+<script src="strict.js"></script>
+
+
+</body>
+</body>
+</head>
+</html>
